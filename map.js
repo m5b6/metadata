@@ -1,5 +1,3 @@
-//run python file to get data
-
 var spawn = require('child_process').spawn;
 var py = spawn('python', ['main.py']);
 var dataString = '';
@@ -14,6 +12,5 @@ py.stdout.on('end', function(){
     }
 );
 
-//show output in a map
 
 
